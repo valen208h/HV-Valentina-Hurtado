@@ -5,8 +5,7 @@ function Habilities(props){
       <div className='informacion--habilidades'>
         <h2>{props.Habilities}</h2>
         <p>{props.workGroup}</p>
-        <p>{props.responsability}</p>
-        <p>{props.collaboration}</p>
+        
         
       </div>
     );
@@ -15,7 +14,10 @@ const myInfoHabilities={
     Habilities:'PERFIL PROFESIONAL',
     linea1:'Poseo criterios de responsabilidad, perseverancia, competitividad y productividad,',
     linea2:'permitiendo forjar en mí un perfil de trabajo en equipo, cualidades que considero ',
-    linea3:'indispensables en el ámbito laboral.'
+    linea3:'indispensables en el ámbito laboral.',
+    linea4:'Por mi formación académica cuento con amplios conocimientos teóricos y prácticos en el ',
+    linea5:' con conicimientos en  Python, javascript, html, css, reactjs,Bases de datos, entre otros.',
+    linea6:'con disponibilidad de seguir aprendiendo y trabajar'
   }
 
 function CurriculumHabilities(props){
@@ -23,9 +25,13 @@ function CurriculumHabilities(props){
         <div>
             <Habilities
             Habilities={props.Habilities}
-            workGroup={props.workGroup}
-            responsability={props.responsability}
-            collaboration={props.collaboration}
+            linea1={props.linea1}
+            linea2={props.linea2}
+            linea3={props.linea3}
+            linea4={props.linea4}
+            linea5={props.linea5}
+            linea6={props.linea6}
+            
             />
         </div>
     );
@@ -35,9 +41,13 @@ function OfMainHabilities(){
         <div>
             <CurriculumHabilities
             Habilities={myInfoHabilities.Habilities}
-            workGroup={myInfoHabilities.workGroup}
-            responsability={myInfoHabilities.responsability}
-            collaboration={myInfoHabilities.collaboration}
+            linea1={myInfoHabilities.linea1}
+            linea2={myInfoHabilities.line2}
+            linea3={myInfoHabilities.linea3}
+            linea4={myInfoHabilities.linea4}
+            linea5={myInfoHabilities.linea5}
+            linea6={myInfoHabilities.linea6}
+
             />
         </div>
     );
