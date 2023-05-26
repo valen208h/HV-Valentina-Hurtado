@@ -22,6 +22,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -47,9 +48,13 @@
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	margin: 0 auto; 
   }
-  .informacion{
+  .App-segunda-informacion{
     margin-left: 3%;
     text-align: left;
+    border-right:5px dotted rgb(51, 213, 189);;
+  }
+  .ultimo--contenedor{
+    margin-top: 3%;
   }
 
 

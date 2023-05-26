@@ -11,7 +11,7 @@ function PerEstudiante(props) {
     );
 }
 const myInfo = {
-    carrera: 'Estudiante sexto semestre de ingenieria de sistemas y telecomunicaciones'
+    carrera: 'Estudiante quinto semestre de ingenieria de sistemas y telecomunicaciones'
   };
 
 

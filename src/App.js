@@ -27,10 +27,10 @@ function App() {
           </div>
         </div>
       </div>
-      
-      <div class = "informacion">
+      <div class ="App-segunda">
+    
         <div class = "row">
-          <div class = "col-6">
+          <div class = "col-6 App-segunda-informacion">
             <PrimerParte></PrimerParte>
           </div>
           
@@ -38,6 +38,7 @@ function App() {
         
       </div>
       <Formulario></Formulario>
+      
       
     </div>   
     
