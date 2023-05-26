@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import ImaMia from './components/imagenes/1000593544VALENTINAHURTADOPRADA.JPG'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PrimerParte from './components/PersonalInformation/index'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import PerEstudiante from './components/PerEstudiante/index'
 import Formulario from './components/Formulario/index'
 import PerHabilidades from './components/PerHabilidades/index'
