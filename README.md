@@ -1,4 +1,4 @@
-##  Bienvenidos al repositorio CurriculumVitae
+##  Bienvenidos al repositorio de la Hoja de Vida de Valentina Hurtado Prada
 Proyecto principalmente elaborado mediante react js, implementando conocimientos sobre HTML,CSS Y JAVASCRIPT.
 
 ###  Tabla de contenido
