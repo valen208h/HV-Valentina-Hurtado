@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import PerEstudiante from './components/PerEstudiante/index'
 import Formulario from './components/Formulario/index'
 import PerHabilidades from './components/PerHabilidades/index'
+import PerProfesional from './components/perProfesional/index'
 import './App.css';
 
 
@@ -41,7 +42,15 @@ function App() {
         </div>
         
       </div>
+      <div class = "App-tercera">
+        <div class = "row">
+          <div class = "col-12 App-tercera-profesional">
+            <PerProfesional></PerProfesional>
+          </div>
+        </div>
+      </div>
       <Formulario></Formulario>
+      
       
       
     </div>   

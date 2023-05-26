@@ -4,7 +4,12 @@ function Habilities(props){
     return(
       <div className='informacion--habilidades'>
         <h2>{props.Habilities}</h2>
-        <p>{props.workGroup}</p>
+        <p>{props.linea1}</p>
+        <p>{props.linea2}</p>
+        <p>{props.linea3}</p>
+        <p>{props.linea4}</p>
+        <p>{props.linea5}</p>
+        <p>{props.linea6}</p>
         
         
       </div>

@@ -51,7 +51,7 @@ margin: 0 auto;
 .App-segunda-informacion{
   margin-left: 3%;
   text-align: left;
-  border-right:5px dotted rgb(51, 213, 189);;
+  border-right:5px dotted rgb(51, 213, 189);
 }
 .ultimo--contenedor{
   margin-top: 3%;
@@ -61,4 +61,11 @@ margin: 0 auto;
   text-align: left;
   margin-right: 3%;
 }
+.App-tercera{
+  margin: 3%;
+  border-top:5px dotted rgb(51, 213, 189);
+}
 
+.App-tercera-profesional{
+  margin-top:2%;
+}
