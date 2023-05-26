@@ -4,6 +4,7 @@ import React from "react";
 
 function PerInformation(props) {
     return (
+
       <div className='personal--information'>
         <h3>{props.name}</h3>
         <p>{props.email}</p>

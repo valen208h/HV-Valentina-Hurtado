@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +9,9 @@
   }
 }
 
-.App-header {
+.App-cuadro {
   background-color: #0c6465;
   margin: 3%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-hola{
@@ -40,3 +29,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App-cuadro--ImaMia{
+  margin-top: 2%;
+}
+.App-cuadro--perEstudiante{
+  margin-top: 2%;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
