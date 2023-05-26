@@ -20,8 +20,8 @@ const myInfoHabilities={
     linea1:'Poseo criterios de responsabilidad, perseverancia, competitividad y productividad,',
     linea2:'permitiendo forjar en mí un perfil de trabajo en equipo, cualidades que considero ',
     linea3:'indispensables en el ámbito laboral.',
-    linea4:'Por mi formación académica cuento con amplios conocimientos teóricos y prácticos en el ',
-    linea5:' con conicimientos en  Python, javascript, html, css, reactjs,Bases de datos, entre otros.',
+    linea4:'Por mi formación académica cuento con amplios conocimientos teóricos y prácticos en',
+    linea5:'conocimientos de Python, javascript, html, css, reactjs,Bases de datos, entre otros.',
     linea6:'con disponibilidad de seguir aprendiendo y trabajar'
   }
 
