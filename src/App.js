@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import PerEstudiante from './components/PerEstudiante/index'
 import Formulario from './components/Formulario/index'
+import PerHabilidades from './components/PerHabilidades/index'
 import './App.css';
 
 
@@ -32,6 +33,9 @@ function App() {
         <div class = "row">
           <div class = "col-6 App-segunda-informacion">
             <PrimerParte></PrimerParte>
+          </div>
+          <div class ="col-5 App-segunda-habilidades">
+            <PerHabilidades></PerHabilidades>
           </div>
           
         </div>
