@@ -25,7 +25,7 @@ function HojaVidaInformation(props) {
     );
   }
 
-function OfMain(){
+function PrincipalCarre(){
     return(
         <div>
             <HojaVidaInformation
@@ -35,4 +35,4 @@ function OfMain(){
     );
 }
 
-export default OfMain;
+export default PrincipalCarre;

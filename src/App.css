@@ -6,6 +6,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    margin-top: 4%;
   }
 }
 
@@ -31,13 +32,24 @@
 }
 
 .App-cuadro--ImaMia{
-  margin-top: 2%;
+  margin-top: 8%;
 }
 .App-cuadro--perEstudiante{
-  margin-top: 2%;
+  
   color: white;
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.ultimo--contenedor {
+	max-width: 800px;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 0 auto; 
+  }
+  .informacion{
+    margin-left: 3%;
+    text-align: left;
+  }
 
 

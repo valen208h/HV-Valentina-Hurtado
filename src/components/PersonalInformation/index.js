@@ -6,6 +6,7 @@ function PerInformation(props) {
     return (
 
       <div className='personal--information'>
+        
         <h3>{props.name}</h3>
         <p>{props.email}</p>
         <p>{props.phone}</p>
@@ -15,7 +16,7 @@ function PerInformation(props) {
     );
 }
 const myInfo = {
-    name: 'Valentina Hurtado Prada',
+    name: 'Contactame',
     address: 'Manizalez-Caldas-Colombia',
     email: 'valen.2802@gmail.com',
     phone: '322-536-8295',
@@ -37,7 +38,7 @@ function HojaVidaInformation(props) {
     );
   }
 
-function OfMain(){
+function principalInfo(){
     return(
         <div>
             <HojaVidaInformation
@@ -51,6 +52,6 @@ function OfMain(){
     );
 }
 
-export default OfMain;
+export default principalInfo;
 
 
